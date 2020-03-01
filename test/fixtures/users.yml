@@ -1,3 +1,11 @@
+sampleuser:
+  name: Sample
+  email: sample@example.com
+  password_digest: <%= User.digest('sample') %>
+  admin: true
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
 michael:
   name: Michael Example
   email: michael@example.com
