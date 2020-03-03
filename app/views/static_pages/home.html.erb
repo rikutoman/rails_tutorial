@@ -12,7 +12,7 @@
       </section>
     </aside>
      <div class="col-md-8">
-      <h3>Micropost Feed</h3>
+      <h3>投稿一覧</h3>
       <%= render 'shared/feed' %>
     </div>
   </div>
@@ -29,5 +29,7 @@
 
     <%= link_to "無料登録する", signup_path, class: "btn btn-lg btn-primary" %>
   </div>
-  
+  <%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
+
 <% end %>
