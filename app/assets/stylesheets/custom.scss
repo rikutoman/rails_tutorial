@@ -52,6 +52,17 @@ h2 {
   color: #777;
 }
 
+h3 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+
+
+
 p {
   font-size: 1.1em;
   line-height: 1.7em;
@@ -95,6 +106,7 @@ footer a:hover {
 
 footer small {
   float: left;
+  color: black;
 }
 
 footer ul {
@@ -293,4 +305,9 @@ span.picture {
   input {
     border: 0;
   }
+}
+
+body {
+  background-image: url("nWky9SwNx7rnAFE1583222361_1583222378.png");
+  background-size: cover;
 }
